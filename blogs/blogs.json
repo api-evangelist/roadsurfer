@@ -1,0 +1,14 @@
+{
+  "repo": "roadsurfer",
+  "feeds": [
+    {
+      "source": "https://roadsurfer.com",
+      "feed_url": "https://roadsurfer.com/feed/",
+      "title": "",
+      "saved": 2,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 2,
+  "fetched": "2026-07-25T15:00:33Z"
+}

@@ -1,8 +1,28 @@
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1
 aid: roadsurfer
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/roadsurfer.png
 name: Roadsurfer
-description: 'Roadsurfer is a company surfaced as a portfolio company of hv-capital and added to the API
-  Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Roadsurfer is a Munich-based camper van, motorhome, and RV travel company founded in 2016,
+  operating a fleet of 10,000+ vehicles across 100+ pick-up/drop-off locations in 16 countries in Europe and
+  North America. Beyond flexible RV rentals it offers RV subscriptions, RV sales, one-way "Rallies," and
+  roadsurfer Spots, a network of 10,000+ hand-picked European campsites. Roadsurfer is a consumer-facing
+  brand with no public developer API; this profile captures its identity, web properties, and published
+  llms.txt for the API Evangelist network. Backed by HV Capital.'
 url: https://raw.githubusercontent.com/api-evangelist/roadsurfer/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,11 +32,40 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Consumer
+- Travel
+- Mobility
+- Camper Van Rental
+- RV Rental
+- Tourism
+- Subscription
 apis: []
+common:
+- type: DomainSecurity
+  url: security/roadsurfer-domain-security.yml
+- type: Website
+  url: https://roadsurfer.com
+- type: Blog
+  url: https://roadsurfer.com/blog/
+- type: Support
+  url: https://rent-help.roadsurfer.com/hc/en-us
+- type: Login
+  url: https://account.roadsurfer.com
+- type: Pricing
+  url: https://roadsurfer.com/deals/
+- type: TermsOfService
+  url: https://roadsurfer.com/terms-and-conditions/website/
+- type: PrivacyPolicy
+  url: https://roadsurfer.com/privacy-policy/
+- type: About
+  url: https://roadsurfer.com/about/
+- type: Careers
+  url: https://roadsurfer.com/jobs/
+- type: LLMsTxt
+  url: llms/roadsurfer-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
